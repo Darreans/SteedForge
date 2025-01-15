@@ -1,0 +1,17 @@
+C:\Users\Darrean\source\repos\SteedForge\bin\Debug\net6.0\Bloody.Core.dll
+C:\Users\Darrean\source\repos\SteedForge\bin\Debug\net6.0\BloodyShop.dll
+C:\Users\Darrean\source\repos\SteedForge\obj\Debug\net6.0\SteedForge.csproj.AssemblyReference.cache
+C:\Users\Darrean\source\repos\SteedForge\obj\Debug\net6.0\MyPluginInfo.cs
+C:\Users\Darrean\source\repos\SteedForge\obj\Debug\net6.0\SteedForge.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Darrean\source\repos\SteedForge\obj\Debug\net6.0\SteedForge.AssemblyInfoInputs.cache
+C:\Users\Darrean\source\repos\SteedForge\obj\Debug\net6.0\SteedForge.AssemblyInfo.cs
+C:\Users\Darrean\source\repos\SteedForge\obj\Debug\net6.0\SteedForge.csproj.CoreCompileInputs.cache
+C:\Users\Darrean\source\repos\SteedForge\obj\Debug\net6.0\SteedForge.csproj.Up2Date
+C:\Users\Darrean\source\repos\SteedForge\bin\Debug\net6.0\SteedForge.deps.json
+C:\Users\Darrean\source\repos\SteedForge\bin\Debug\net6.0\SteedForge.dll
+C:\Users\Darrean\source\repos\SteedForge\bin\Debug\net6.0\SteedForge.pdb
+C:\Users\Darrean\source\repos\SteedForge\obj\Debug\net6.0\SteedForge.dll
+C:\Users\Darrean\source\repos\SteedForge\obj\Debug\net6.0\refint\SteedForge.dll
+C:\Users\Darrean\source\repos\SteedForge\obj\Debug\net6.0\SteedForge.pdb
+C:\Users\Darrean\source\repos\SteedForge\obj\Debug\net6.0\ref\SteedForge.dll
+C:\Users\Darrean\source\repos\SteedForge\bin\Debug\net6.0\UniverseLib.IL2CPP.Interop.dll
