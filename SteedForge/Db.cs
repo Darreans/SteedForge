@@ -1,12 +1,12 @@
 ﻿using ProjectM;
 using Stunlock.Core;
-using Bloody.Core.Helper.v1;
+using System;
 
 namespace SteedForge
 {
     public static class HorseDb
     {
-        public static readonly PrefabGUID NormalHorsePrefab = Prefabs.CHAR_Mount_Horse;
-        public static readonly PrefabGUID SpectralHorsePrefab = Prefabs.CHAR_Mount_Horse_Spectral;
+        public static readonly PrefabGUID CHAR_Mount_Horse = new PrefabGUID(1149585723);
+        public static readonly PrefabGUID CHAR_Mount_Horse_Spectral = new PrefabGUID(2022889449);
     }
 }
