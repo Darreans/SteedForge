@@ -1,14 +1,12 @@
 ﻿{
-  "name": "ForgeSteed",
-  "version_number": "1.0.0",
+  "name": "SteedForge",
+  "version_number": "1.1.0",
   "author": "Darrean / Inility",
-  "description": "ForgeSteed is a mod for V Rising that lets you upgrade Vampiric Steeds using currancy.",
+  "description": "SteedForge is a mod for V Rising that lets you upgrade your Vampiric Steed using currency.",
   "dependencies": [
-    "Trodi-BloodyShop-1.0.2",
-    "Trodi-BloodyCore-1.2.4",
     "deca-Bloodstone-0.2.2",
     "deca-VampireCommandFramework-0.9.0"
   ],
   "website_url": "https://github.com/Darreans/SteedForge",
-  "FullName": "ForgeSteed"
+  "FullName": "SteedForge"
 }
