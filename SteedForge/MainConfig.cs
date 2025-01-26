@@ -19,4 +19,15 @@ public static class MainConfig
         RequiredCurrencyGUID = config.Bind("Currency", "RequiredCurrencyGUID", -949672483, "The GUID of the required currency.");
         CurrencyCost = config.Bind("Currency", "CurrencyCost", 500, "The cost in currency for the upgrade.");
     }
+
+    /// <summary>
+    /// Reload the config file from disk. This will update the ConfigEntry values if they’ve changed.
+    /// </summary>
+    public static void ReloadConfig(ConfigFile config)
+    {
+        // Forcibly re-read the .cfg from disk
+        config.Reload();
+        // BepInEx automatically updates the bound ConfigEntry values, so
+        // as soon as we call 'config.Reload()', the new values should be in place.
+    }
 }
