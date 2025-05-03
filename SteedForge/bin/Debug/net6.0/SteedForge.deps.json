@@ -8,89 +8,76 @@
     ".NETCoreApp,Version=v6.0": {
       "SteedForge/0.1.10": {
         "dependencies": {
-          "BepInEx.Core": "6.0.0-be.691",
           "BepInEx.PluginInfoProps": "2.1.0",
-          "BepInEx.Unity.IL2CPP": "6.0.0-be.691",
-          "VRising.Bloodstone": "0.2.2",
-          "VRising.Unhollowed.Client": "1.0.5.802790001",
+          "BepInEx.Unity.IL2CPP": "6.0.0-be.733",
           "VRising.VampireCommandFramework": "0.9.0",
-          "Bloody.Core": "1.2.5.0",
-          "BloodyShop": "1.0.2.0"
+          "VRising.Unhollowed.Client": "1.1.10"
         },
         "runtime": {
           "SteedForge.dll": {}
         }
       },
-      "AsmResolver/5.5.0": {},
-      "AsmResolver.DotNet/5.5.0": {
+      "AsmResolver/6.0.0-beta.1": {},
+      "AsmResolver.DotNet/6.0.0-beta.1": {
         "dependencies": {
-          "AsmResolver.PE": "5.5.0",
-          "System.Text.Json": "6.0.8"
+          "AsmResolver.PE": "6.0.0-beta.1"
         }
       },
-      "AsmResolver.PE/5.5.0": {
+      "AsmResolver.PE/6.0.0-beta.1": {
         "dependencies": {
-          "AsmResolver.PE.File": "5.5.0"
+          "AsmResolver.PE.File": "6.0.0-beta.1"
         }
       },
-      "AsmResolver.PE.File/5.5.0": {
+      "AsmResolver.PE.File/6.0.0-beta.1": {
         "dependencies": {
-          "AsmResolver": "5.5.0"
+          "AsmResolver": "6.0.0-beta.1"
         }
       },
-      "AssetRipper.CIL/1.0.0": {
+      "AssetRipper.CIL/1.1.0": {
         "dependencies": {
-          "AsmResolver.DotNet": "5.5.0"
+          "AsmResolver.DotNet": "6.0.0-beta.1"
         }
       },
-      "AssetRipper.Gee.External.Capstone/2.3.1": {},
-      "AssetRipper.Primitives/3.1.1": {},
-      "BepInEx.Core/6.0.0-be.691": {
+      "AssetRipper.Gee.External.Capstone/2.3.2": {},
+      "AssetRipper.Primitives/3.1.3": {},
+      "BepInEx.Core/6.0.0-be.733": {
         "dependencies": {
-          "HarmonyX": "2.10.1",
-          "MonoMod.Utils": "22.5.1.1",
+          "HarmonyX": "2.10.2",
+          "MonoMod.Utils": "22.7.31.1",
           "SemanticVersioning": "2.0.2"
         }
       },
       "BepInEx.PluginInfoProps/2.1.0": {},
-      "BepInEx.Unity.Common/6.0.0-be.691": {
+      "BepInEx.Unity.Common/6.0.0-be.733": {
         "dependencies": {
-          "AssetRipper.Primitives": "3.1.1",
-          "MonoMod.Utils": "22.5.1.1"
+          "AssetRipper.Primitives": "3.1.3",
+          "MonoMod.Utils": "22.7.31.1"
         }
       },
-      "BepInEx.Unity.IL2CPP/6.0.0-be.691": {
+      "BepInEx.Unity.IL2CPP/6.0.0-be.733": {
         "dependencies": {
-          "BepInEx.Core": "6.0.0-be.691",
-          "BepInEx.Unity.Common": "6.0.0-be.691",
-          "HarmonyX": "2.10.1",
-          "Iced": "1.20.0",
+          "BepInEx.Core": "6.0.0-be.733",
+          "BepInEx.Unity.Common": "6.0.0-be.733",
+          "HarmonyX": "2.10.2",
+          "Iced": "1.21.0",
           "Il2CppInterop.Generator": "1.4.6-ci.426",
           "Il2CppInterop.HarmonySupport": "1.4.6-ci.426",
           "Il2CppInterop.Runtime": "1.4.6-ci.426",
-          "MonoMod.RuntimeDetour": "22.5.1.1",
-          "Samboy063.Cpp2IL.Core": "2022.1.0-development.972"
+          "MonoMod.RuntimeDetour": "22.7.31.1",
+          "Samboy063.Cpp2IL.Core": "2022.1.0-pre-release.18"
         }
       },
-      "Disarm/2022.1.0-master.26": {},
-      "Fody/6.6.2": {},
-      "HarmonyX/2.10.1": {
+      "Disarm/2022.1.0-master.34": {},
+      "HarmonyX/2.10.2": {
         "dependencies": {
-          "MonoMod.RuntimeDetour": "22.5.1.1",
+          "MonoMod.RuntimeDetour": "22.7.31.1",
           "System.Reflection.Emit": "4.7.0"
         }
       },
-      "Iced/1.20.0": {
-        "runtime": {
-          "lib/netstandard2.1/Iced.dll": {
-            "assemblyVersion": "1.20.0.0",
-            "fileVersion": "1.20.0.0"
-          }
-        }
-      },
+      "Iced/1.21.0": {},
       "Il2CppInterop.Common/1.4.6-ci.426": {
         "dependencies": {
-          "Iced": "1.20.0",
+          "Iced": "1.21.0",
           "Microsoft.Extensions.Logging.Abstractions": "6.0.1",
           "System.Net.Http": "4.3.4"
         }
@@ -103,13 +90,13 @@
       },
       "Il2CppInterop.HarmonySupport/1.4.6-ci.426": {
         "dependencies": {
-          "HarmonyX": "2.10.1",
+          "HarmonyX": "2.10.2",
           "Il2CppInterop.Runtime": "1.4.6-ci.426"
         }
       },
       "Il2CppInterop.Runtime/1.4.6-ci.426": {
         "dependencies": {
-          "Iced": "1.20.0",
+          "Iced": "1.21.0",
           "Il2CppInterop.Common": "1.4.6-ci.426"
         }
       },
@@ -117,10 +104,10 @@
       "Microsoft.NETCore.Platforms/1.1.1": {},
       "Microsoft.NETCore.Targets/1.1.0": {},
       "Mono.Cecil/0.11.4": {},
-      "MonoMod.RuntimeDetour/22.5.1.1": {
+      "MonoMod.RuntimeDetour/22.7.31.1": {
         "dependencies": {
           "Mono.Cecil": "0.11.4",
-          "MonoMod.Utils": "22.5.1.1",
+          "MonoMod.Utils": "22.7.31.1",
           "System.Collections.NonGeneric": "4.3.0",
           "System.ComponentModel.TypeConverter": "4.3.0",
           "System.IO.FileSystem.Primitives": "4.3.0",
@@ -129,7 +116,7 @@
           "System.Reflection.TypeExtensions": "4.7.0"
         }
       },
-      "MonoMod.Utils/22.5.1.1": {
+      "MonoMod.Utils/22.7.31.1": {
         "dependencies": {
           "Mono.Cecil": "0.11.4",
           "System.Collections.NonGeneric": "4.3.0",
@@ -182,26 +169,26 @@
       "runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {},
       "runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {},
       "runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {},
-      "Samboy063.Cpp2IL.Core/2022.1.0-development.972": {
+      "Samboy063.Cpp2IL.Core/2022.1.0-pre-release.18": {
         "dependencies": {
-          "AsmResolver.DotNet": "5.5.0",
-          "AssetRipper.CIL": "1.0.0",
-          "AssetRipper.Gee.External.Capstone": "2.3.1",
-          "Disarm": "2022.1.0-master.26",
-          "Iced": "1.20.0",
-          "Samboy063.LibCpp2IL": "2022.1.0-development.972",
-          "StableNameDotNet": "0.1.0-development.972"
+          "AsmResolver.DotNet": "6.0.0-beta.1",
+          "AssetRipper.CIL": "1.1.0",
+          "AssetRipper.Gee.External.Capstone": "2.3.2",
+          "Disarm": "2022.1.0-master.34",
+          "Iced": "1.21.0",
+          "Samboy063.LibCpp2IL": "2022.1.0-pre-release.18",
+          "StableNameDotNet": "0.1.0-pre-release.15"
         }
       },
-      "Samboy063.LibCpp2IL/2022.1.0-development.972": {
+      "Samboy063.LibCpp2IL/2022.1.0-pre-release.18": {
         "dependencies": {
-          "AssetRipper.Primitives": "3.1.1",
-          "Samboy063.WasmDisassembler": "2022.1.0-development.972"
+          "AssetRipper.Primitives": "3.1.3",
+          "Samboy063.WasmDisassembler": "2022.1.0-pre-release.15"
         }
       },
-      "Samboy063.WasmDisassembler/2022.1.0-development.972": {},
+      "Samboy063.WasmDisassembler/2022.1.0-pre-release.15": {},
       "SemanticVersioning/2.0.2": {},
-      "StableNameDotNet/0.1.0-development.972": {},
+      "StableNameDotNet/0.1.0-pre-release.15": {},
       "System.Collections/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.1",
@@ -439,7 +426,6 @@
           "Microsoft.NETCore.Targets": "1.1.0"
         }
       },
-      "System.Runtime.CompilerServices.Unsafe/6.0.0": {},
       "System.Runtime.Extensions/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.1",
@@ -602,17 +588,6 @@
           "System.Runtime": "4.3.0"
         }
       },
-      "System.Text.Encodings.Web/6.0.0": {
-        "dependencies": {
-          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
-        }
-      },
-      "System.Text.Json/6.0.8": {
-        "dependencies": {
-          "System.Runtime.CompilerServices.Unsafe": "6.0.0",
-          "System.Text.Encodings.Web": "6.0.0"
-        }
-      },
       "System.Threading/4.3.0": {
         "dependencies": {
           "System.Runtime": "4.3.0",
@@ -626,717 +601,681 @@
           "System.Runtime": "4.3.0"
         }
       },
-      "VRising.Bloodstone/0.2.2": {
-        "dependencies": {
-          "BepInEx.Core": "6.0.0-be.691",
-          "BepInEx.PluginInfoProps": "2.1.0",
-          "BepInEx.Unity.IL2CPP": "6.0.0-be.691",
-          "Fody": "6.6.2",
-          "Iced": "1.20.0",
-          "VRising.Unhollowed.Client": "1.0.5.802790001"
-        },
+      "VRising.Unhollowed.Client/1.1.10": {
         "runtime": {
-          "lib/net6.0/Bloodstone.dll": {
-            "assemblyVersion": "0.2.2.0",
-            "fileVersion": "0.2.2.0"
-          }
-        }
-      },
-      "VRising.Unhollowed.Client/1.0.5.802790001": {
-        "runtime": {
-          "lib/net6.0/Backtrace.Unity.dll": {
+          "lib/Backtrace.Unity.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/Il2CppInterop.Common.dll": {
-            "assemblyVersion": "1.4.6.0",
-            "fileVersion": "1.4.6.0"
-          },
-          "lib/net6.0/Il2CppInterop.Generator.dll": {
-            "assemblyVersion": "1.4.6.0",
-            "fileVersion": "1.4.6.0"
-          },
-          "lib/net6.0/Il2CppInterop.HarmonySupport.dll": {
-            "assemblyVersion": "1.4.6.0",
-            "fileVersion": "1.4.6.0"
-          },
-          "lib/net6.0/Il2CppInterop.Runtime.dll": {
-            "assemblyVersion": "1.4.6.0",
-            "fileVersion": "1.4.6.0"
-          },
-          "lib/net6.0/Il2CppMono.Security.dll": {
+          "lib/Il2CppMono.Security.dll": {
             "assemblyVersion": "4.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/Il2CppSystem.Configuration.dll": {
+          "lib/Il2CppSystem.Configuration.dll": {
             "assemblyVersion": "4.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/Il2CppSystem.Core.dll": {
+          "lib/Il2CppSystem.Core.dll": {
             "assemblyVersion": "4.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/Il2CppSystem.Data.dll": {
+          "lib/Il2CppSystem.Data.dll": {
             "assemblyVersion": "4.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/Il2CppSystem.Drawing.dll": {
+          "lib/Il2CppSystem.Drawing.dll": {
             "assemblyVersion": "4.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/Il2CppSystem.Net.Http.dll": {
+          "lib/Il2CppSystem.Net.Http.dll": {
             "assemblyVersion": "4.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/Il2CppSystem.Numerics.dll": {
+          "lib/Il2CppSystem.Numerics.dll": {
             "assemblyVersion": "4.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/Il2CppSystem.Runtime.CompilerServices.Unsafe.dll": {
+          "lib/Il2CppSystem.Runtime.CompilerServices.Unsafe.dll": {
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/Il2CppSystem.Runtime.Serialization.dll": {
+          "lib/Il2CppSystem.Runtime.Serialization.dll": {
             "assemblyVersion": "4.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/Il2CppSystem.Xml.Linq.dll": {
+          "lib/Il2CppSystem.Xml.Linq.dll": {
             "assemblyVersion": "4.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/Il2CppSystem.Xml.dll": {
+          "lib/Il2CppSystem.Xml.dll": {
             "assemblyVersion": "4.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/Il2CppSystem.dll": {
+          "lib/Il2CppSystem.dll": {
             "assemblyVersion": "4.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/Il2Cppmscorlib.dll": {
+          "lib/Il2Cppmscorlib.dll": {
             "assemblyVersion": "4.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/Lidgren.Network.dll": {
+          "lib/Lidgren.Network.dll": {
             "assemblyVersion": "2012.1.7.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/MagicaCloth.dll": {
+          "lib/MagicaCloth.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/Malee.ReorderableList.dll": {
+          "lib/Malee.ReorderableList.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/Newtonsoft.Json.dll": {
+          "lib/Newtonsoft.Json.dll": {
             "assemblyVersion": "13.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/ProjectM.Behaviours.dll": {
+          "lib/ProjectM.Behaviours.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/ProjectM.Camera.dll": {
+          "lib/ProjectM.Camera.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/ProjectM.CastleBuilding.Systems.dll": {
+          "lib/ProjectM.CastleBuilding.Systems.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/ProjectM.CastleDyeSystem.dll": {
+          "lib/ProjectM.CastleDyeSystem.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/ProjectM.CodeGeneration.dll": {
+          "lib/ProjectM.CodeGeneration.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/ProjectM.Conversion.dll": {
+          "lib/ProjectM.Conversion.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/ProjectM.DualsensePC.dll": {
+          "lib/ProjectM.DualsensePC.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/ProjectM.Editor.SampleHandler.dll": {
+          "lib/ProjectM.Editor.SampleHandler.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/ProjectM.Gameplay.Scripting.dll": {
+          "lib/ProjectM.Gameplay.Scripting.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/ProjectM.Gameplay.Systems.dll": {
+          "lib/ProjectM.Gameplay.Systems.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/ProjectM.GeneratedNetCode.dll": {
+          "lib/ProjectM.GeneratedNetCode.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/ProjectM.HUD.dll": {
+          "lib/ProjectM.HUD.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/ProjectM.Haptics.dll": {
+          "lib/ProjectM.Haptics.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/ProjectM.Hybrid.Performance.dll": {
+          "lib/ProjectM.Hybrid.Performance.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/ProjectM.LiveBuildPerformanceTests.Utilities.dll": {
+          "lib/ProjectM.LiveBuildPerformanceTests.GlowingVampire.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/ProjectM.Misc.Systems.dll": {
+          "lib/ProjectM.LiveBuildPerformanceTests.Utilities.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/ProjectM.Pathfinding.dll": {
+          "lib/ProjectM.Misc.Systems.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/ProjectM.PerformanceTests.Editor.dll": {
+          "lib/ProjectM.Pathfinding.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/ProjectM.Presentation.Systems.dll": {
+          "lib/ProjectM.PerformanceTests.Editor.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/ProjectM.Roofs.dll": {
+          "lib/ProjectM.Presentation.Systems.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/ProjectM.ScriptableSystems.dll": {
+          "lib/ProjectM.Roofs.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/ProjectM.Shared.ColorData.dll": {
+          "lib/ProjectM.ScriptableSystems.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/ProjectM.Shared.Systems.dll": {
+          "lib/ProjectM.Shared.ColorData.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/ProjectM.Shared.dll": {
+          "lib/ProjectM.Shared.Systems.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/ProjectM.Terrain.dll": {
+          "lib/ProjectM.Shared.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/ProjectM.Wind.Shared.dll": {
+          "lib/ProjectM.Steam.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/ProjectM.dll": {
+          "lib/ProjectM.Terrain.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/RCONServerLib.dll": {
+          "lib/ProjectM.VFXRendererUtility.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/RTLTMPro.dll": {
+          "lib/ProjectM.Wind.Shared.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/RootMotion.dll": {
+          "lib/ProjectM.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/Sequencer.dll": {
+          "lib/RCONServerLib.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/Stunlock.Console.dll": {
+          "lib/RTLTMPro.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/Stunlock.ContentTests.dll": {
+          "lib/RootMotion.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/Stunlock.Core.Animation.dll": {
+          "lib/Rukhanka.DebugDrawer.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/Stunlock.Core.dll": {
+          "lib/Rukhanka.Hybrid.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/Stunlock.Fmod.dll": {
+          "lib/Rukhanka.Runtime.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/Stunlock.Localization.dll": {
+          "lib/Rukhanka.Toolbox.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/Stunlock.Metrics.dll": {
+          "lib/Sequencer.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/Stunlock.Network.EosSdk.dll": {
+          "lib/Stunlock.Animation.StunCloth.Runtime.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/Stunlock.Network.Lidgren.dll": {
+          "lib/Stunlock.Console.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/Stunlock.Network.Steam.dll": {
+          "lib/Stunlock.ContentTests.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/Stunlock.Network.dll": {
+          "lib/Stunlock.Core.Animation.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/Stunlock.Tools.dll": {
+          "lib/Stunlock.Core.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/Unity.Burst.Unsafe.dll": {
+          "lib/Stunlock.Fmod.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/Stunlock.Localization.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/Stunlock.Metrics.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/Stunlock.Network.EosSdk.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/Stunlock.Network.Lidgren.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/Stunlock.Network.Steam.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/Stunlock.Network.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/Stunlock.Tools.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/Unity.Burst.Unsafe.dll": {
             "assemblyVersion": "4.0.5.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/Unity.Burst.dll": {
+          "lib/Unity.Burst.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/Unity.Collections.LowLevel.ILSupport.dll": {
+          "lib/Unity.Collections.LowLevel.ILSupport.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/Unity.Collections.dll": {
+          "lib/Unity.Collections.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/Unity.Deformations.dll": {
+          "lib/Unity.Deformations.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/Unity.Entities.Graphics.dll": {
+          "lib/Unity.Entities.Graphics.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/Unity.Entities.Hybrid.HybridComponents.dll": {
+          "lib/Unity.Entities.Hybrid.HybridComponents.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/Unity.Entities.Hybrid.dll": {
+          "lib/Unity.Entities.Hybrid.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/Unity.Entities.dll": {
+          "lib/Unity.Entities.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/Unity.InputSystem.ForUI.dll": {
+          "lib/Unity.InputSystem.ForUI.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/Unity.InputSystem.dll": {
+          "lib/Unity.InputSystem.dll": {
             "assemblyVersion": "1.7.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/Unity.Mathematics.Extensions.Hybrid.dll": {
+          "lib/Unity.Mathematics.Extensions.Hybrid.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/Unity.Mathematics.Extensions.dll": {
+          "lib/Unity.Mathematics.Extensions.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/Unity.Mathematics.dll": {
+          "lib/Unity.Mathematics.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/Unity.Physics.Hybrid.dll": {
+          "lib/Unity.MemoryProfiler.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/Unity.Physics.dll": {
+          "lib/Unity.Physics.Hybrid.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/Unity.Profiling.Core.dll": {
+          "lib/Unity.Physics.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/Unity.RenderPipelines.Core.Runtime.dll": {
+          "lib/Unity.Profiling.Core.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/Unity.RenderPipelines.HighDefinition.Config.Runtime.dll": {
+          "lib/Unity.RenderPipelines.Core.Runtime.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/Unity.RenderPipelines.HighDefinition.Runtime.dll": {
+          "lib/Unity.RenderPipelines.HighDefinition.Config.Runtime.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/Unity.Scenes.dll": {
+          "lib/Unity.RenderPipelines.HighDefinition.Runtime.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/Unity.Serialization.dll": {
+          "lib/Unity.Scenes.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/Unity.Services.Analytics.dll": {
+          "lib/Unity.Serialization.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/Unity.Services.Core.Configuration.dll": {
+          "lib/Unity.TextMeshPro.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/Unity.Services.Core.Device.dll": {
+          "lib/Unity.Transforms.Hybrid.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/Unity.Services.Core.Environments.Internal.dll": {
+          "lib/Unity.Transforms.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/Unity.Services.Core.Internal.dll": {
+          "lib/Unity.VisualEffectGraph.Runtime.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/Unity.Services.Core.Registration.dll": {
+          "lib/UnityEngine.AIModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/Unity.Services.Core.Scheduler.dll": {
+          "lib/UnityEngine.AccessibilityModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/Unity.Services.Core.Telemetry.dll": {
+          "lib/UnityEngine.AndroidJNIModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/Unity.Services.Core.Threading.dll": {
+          "lib/UnityEngine.AnimationModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/Unity.Services.Core.dll": {
+          "lib/UnityEngine.AssetBundleModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/Unity.TextMeshPro.dll": {
+          "lib/UnityEngine.AudioModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/Unity.Transforms.Hybrid.dll": {
+          "lib/UnityEngine.ClothModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/Unity.Transforms.dll": {
+          "lib/UnityEngine.ClusterInputModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/Unity.VisualEffectGraph.Runtime.dll": {
+          "lib/UnityEngine.ClusterRendererModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/UnityEngine.AIModule.dll": {
+          "lib/UnityEngine.ContentLoadModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/UnityEngine.AccessibilityModule.dll": {
+          "lib/UnityEngine.CoreModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/UnityEngine.AndroidJNIModule.dll": {
+          "lib/UnityEngine.CrashReportingModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/UnityEngine.AnimationModule.dll": {
+          "lib/UnityEngine.DSPGraphModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/UnityEngine.AssetBundleModule.dll": {
+          "lib/UnityEngine.DirectorModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/UnityEngine.AudioModule.dll": {
+          "lib/UnityEngine.GIModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/UnityEngine.ClothModule.dll": {
+          "lib/UnityEngine.GameCenterModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/UnityEngine.ClusterInputModule.dll": {
+          "lib/UnityEngine.GridModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/UnityEngine.ClusterRendererModule.dll": {
+          "lib/UnityEngine.HotReloadModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/UnityEngine.ContentLoadModule.dll": {
+          "lib/UnityEngine.IMGUIModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/UnityEngine.CoreModule.dll": {
+          "lib/UnityEngine.ImageConversionModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/UnityEngine.CrashReportingModule.dll": {
+          "lib/UnityEngine.InputLegacyModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/UnityEngine.DSPGraphModule.dll": {
+          "lib/UnityEngine.InputModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/UnityEngine.DirectorModule.dll": {
+          "lib/UnityEngine.JSONSerializeModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/UnityEngine.GIModule.dll": {
+          "lib/UnityEngine.LocalizationModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/UnityEngine.GameCenterModule.dll": {
+          "lib/UnityEngine.ParticleSystemModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/UnityEngine.GridModule.dll": {
+          "lib/UnityEngine.PerformanceReportingModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/UnityEngine.HotReloadModule.dll": {
+          "lib/UnityEngine.Physics2DModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/UnityEngine.IMGUIModule.dll": {
+          "lib/UnityEngine.PhysicsModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/UnityEngine.ImageConversionModule.dll": {
+          "lib/UnityEngine.ProfilerModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/UnityEngine.InputLegacyModule.dll": {
+          "lib/UnityEngine.PropertiesModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/UnityEngine.InputModule.dll": {
+          "lib/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/UnityEngine.JSONSerializeModule.dll": {
+          "lib/UnityEngine.ScreenCaptureModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/UnityEngine.LocalizationModule.dll": {
+          "lib/UnityEngine.SharedInternalsModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/UnityEngine.ParticleSystemModule.dll": {
+          "lib/UnityEngine.SpriteMaskModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/UnityEngine.PerformanceReportingModule.dll": {
+          "lib/UnityEngine.SpriteShapeModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/UnityEngine.Physics2DModule.dll": {
+          "lib/UnityEngine.StreamingModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/UnityEngine.PhysicsModule.dll": {
+          "lib/UnityEngine.SubstanceModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/UnityEngine.ProfilerModule.dll": {
+          "lib/UnityEngine.SubsystemsModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/UnityEngine.PropertiesModule.dll": {
+          "lib/UnityEngine.TLSModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll": {
+          "lib/UnityEngine.TerrainModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/UnityEngine.ScreenCaptureModule.dll": {
+          "lib/UnityEngine.TerrainPhysicsModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/UnityEngine.SharedInternalsModule.dll": {
+          "lib/UnityEngine.TextCoreFontEngineModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/UnityEngine.SpriteMaskModule.dll": {
+          "lib/UnityEngine.TextCoreTextEngineModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/UnityEngine.SpriteShapeModule.dll": {
+          "lib/UnityEngine.TextRenderingModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/UnityEngine.StreamingModule.dll": {
+          "lib/UnityEngine.TilemapModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/UnityEngine.SubstanceModule.dll": {
-            "assemblyVersion": "0.0.0.0",
-            "fileVersion": "0.0.0.0"
-          },
-          "lib/net6.0/UnityEngine.SubsystemsModule.dll": {
-            "assemblyVersion": "0.0.0.0",
-            "fileVersion": "0.0.0.0"
-          },
-          "lib/net6.0/UnityEngine.TLSModule.dll": {
-            "assemblyVersion": "0.0.0.0",
-            "fileVersion": "0.0.0.0"
-          },
-          "lib/net6.0/UnityEngine.TerrainModule.dll": {
-            "assemblyVersion": "0.0.0.0",
-            "fileVersion": "0.0.0.0"
-          },
-          "lib/net6.0/UnityEngine.TerrainPhysicsModule.dll": {
-            "assemblyVersion": "0.0.0.0",
-            "fileVersion": "0.0.0.0"
-          },
-          "lib/net6.0/UnityEngine.TextCoreFontEngineModule.dll": {
-            "assemblyVersion": "0.0.0.0",
-            "fileVersion": "0.0.0.0"
-          },
-          "lib/net6.0/UnityEngine.TextCoreTextEngineModule.dll": {
-            "assemblyVersion": "0.0.0.0",
-            "fileVersion": "0.0.0.0"
-          },
-          "lib/net6.0/UnityEngine.TextRenderingModule.dll": {
-            "assemblyVersion": "0.0.0.0",
-            "fileVersion": "0.0.0.0"
-          },
-          "lib/net6.0/UnityEngine.TilemapModule.dll": {
-            "assemblyVersion": "0.0.0.0",
-            "fileVersion": "0.0.0.0"
-          },
-          "lib/net6.0/UnityEngine.UI.dll": {
+          "lib/UnityEngine.UI.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/UnityEngine.UIElementsModule.dll": {
+          "lib/UnityEngine.UIElementsModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/UnityEngine.UIModule.dll": {
+          "lib/UnityEngine.UIModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/UnityEngine.UmbraModule.dll": {
+          "lib/UnityEngine.UmbraModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/UnityEngine.UnityAnalyticsCommonModule.dll": {
+          "lib/UnityEngine.UnityAnalyticsCommonModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/UnityEngine.UnityAnalyticsModule.dll": {
+          "lib/UnityEngine.UnityAnalyticsModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/UnityEngine.UnityConnectModule.dll": {
+          "lib/UnityEngine.UnityConnectModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/UnityEngine.UnityCurlModule.dll": {
+          "lib/UnityEngine.UnityCurlModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/UnityEngine.UnityTestProtocolModule.dll": {
+          "lib/UnityEngine.UnityTestProtocolModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/UnityEngine.UnityWebRequestAssetBundleModule.dll": {
+          "lib/UnityEngine.UnityWebRequestAssetBundleModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/UnityEngine.UnityWebRequestAudioModule.dll": {
+          "lib/UnityEngine.UnityWebRequestAudioModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/UnityEngine.UnityWebRequestModule.dll": {
+          "lib/UnityEngine.UnityWebRequestModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/UnityEngine.UnityWebRequestTextureModule.dll": {
+          "lib/UnityEngine.UnityWebRequestTextureModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/UnityEngine.UnityWebRequestWWWModule.dll": {
+          "lib/UnityEngine.UnityWebRequestWWWModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/UnityEngine.VFXModule.dll": {
+          "lib/UnityEngine.VFXModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/UnityEngine.VRModule.dll": {
+          "lib/UnityEngine.VRModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/UnityEngine.VehiclesModule.dll": {
+          "lib/UnityEngine.VehiclesModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/UnityEngine.VideoModule.dll": {
+          "lib/UnityEngine.VideoModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/UnityEngine.VirtualTexturingModule.dll": {
+          "lib/UnityEngine.VirtualTexturingModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/UnityEngine.WindModule.dll": {
+          "lib/UnityEngine.WindModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/UnityEngine.XRModule.dll": {
+          "lib/UnityEngine.XRModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/UnityEngine.dll": {
+          "lib/UnityEngine.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/VivoxUnity.dll": {
+          "lib/VivoxUnity.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/__Generated.dll": {
+          "lib/__Generated.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/com.rlabrecque.steamworks.net.dll": {
+          "lib/com.rlabrecque.steamworks.net.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/com.stunlock.network.eos.dll": {
+          "lib/com.stunlock.network.eos.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/com.stunlock.platform.dll": {
+          "lib/com.stunlock.platform.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/com.stunlock.platform.pc.dll": {
+          "lib/com.stunlock.platform.pc.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           }
@@ -1349,30 +1288,6 @@
             "fileVersion": "0.9.0.0"
           }
         }
-      },
-      "Bloody.Core/1.2.5.0": {
-        "runtime": {
-          "Bloody.Core.dll": {
-            "assemblyVersion": "1.2.5.0",
-            "fileVersion": "1.2.5.0"
-          }
-        }
-      },
-      "BloodyShop/1.0.2.0": {
-        "runtime": {
-          "BloodyShop.dll": {
-            "assemblyVersion": "1.0.2.0",
-            "fileVersion": "1.0.2.0"
-          }
-        }
-      },
-      "UniverseLib.IL2CPP.Interop/1.5.1.0": {
-        "runtime": {
-          "UniverseLib.IL2CPP.Interop.dll": {
-            "assemblyVersion": "1.5.1.0",
-            "fileVersion": "1.5.1.0"
-          }
-        }
       }
     }
   },
@@ -1382,61 +1297,61 @@
       "serviceable": false,
       "sha512": ""
     },
-    "AsmResolver/5.5.0": {
+    "AsmResolver/6.0.0-beta.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-IuOC+b/D/da4fohYVNwo/NL+8w+q89O9B32bLotegJ+hmFlBEpQEKgtyhxc9ZfEd+x0KzwzD52RISuyLgf/BAA==",
-      "path": "asmresolver/5.5.0",
-      "hashPath": "asmresolver.5.5.0.nupkg.sha512"
+      "sha512": "sha512-M5btCR/rmrx32jZsoN6CLQ/VQk8lN8hvPb6lgojua7pjNoo7StAl92koMC8qz4vzZyH2CNqxLSDoswRvyyK/vA==",
+      "path": "asmresolver/6.0.0-beta.1",
+      "hashPath": "asmresolver.6.0.0-beta.1.nupkg.sha512"
     },
-    "AsmResolver.DotNet/5.5.0": {
+    "AsmResolver.DotNet/6.0.0-beta.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-T19DazP0h4qKXwPspTEB0ZzwlftPuvVAd68HhsS8eNYd9lRd/rtppcBmM2QLQdZeGGNJc+QEzLiAW+wrA3nKAw==",
-      "path": "asmresolver.dotnet/5.5.0",
-      "hashPath": "asmresolver.dotnet.5.5.0.nupkg.sha512"
+      "sha512": "sha512-PTq8nNQvhgTxF1iARCknffCsu7Iq9B0kN7TVC8iMaU7uEYog3xvVqH/0+TreY8GW74/+MqhZt/yEFsvS4oAduQ==",
+      "path": "asmresolver.dotnet/6.0.0-beta.1",
+      "hashPath": "asmresolver.dotnet.6.0.0-beta.1.nupkg.sha512"
     },
-    "AsmResolver.PE/5.5.0": {
+    "AsmResolver.PE/6.0.0-beta.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-bSPe0A+z4iEAabpD9h7ACQ5dkcTirx4fx05P194u/+OIUqlexHf7Zq/PEPdOkesbqHoZmgVmJ1H0GWqqouvZfA==",
-      "path": "asmresolver.pe/5.5.0",
-      "hashPath": "asmresolver.pe.5.5.0.nupkg.sha512"
+      "sha512": "sha512-KadLvx/zzFCJyF+E4jG6jPE1d0iJquzL6+hm8GBivBAs6nwHC8s6g4c857QwQCzXMWza6Vz5Q+3hFiNuOfKaWQ==",
+      "path": "asmresolver.pe/6.0.0-beta.1",
+      "hashPath": "asmresolver.pe.6.0.0-beta.1.nupkg.sha512"
     },
-    "AsmResolver.PE.File/5.5.0": {
+    "AsmResolver.PE.File/6.0.0-beta.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-XHWHnPQf0e0VEJPTaWMoiajuikF0n0fDXS2XWzEXM+/xcY+LABsp1p7ETlg+bFsDVITQRtNTa/xV8eSDlSZjNQ==",
-      "path": "asmresolver.pe.file/5.5.0",
-      "hashPath": "asmresolver.pe.file.5.5.0.nupkg.sha512"
+      "sha512": "sha512-+lusB9UMHevI5aQsu73NQ1ctPMLFvyHAsEf8vjaJ/py+kX1DkU0JkbERtBRmaf58/hBZ7cyrE7gFnjoo7Bbg7A==",
+      "path": "asmresolver.pe.file/6.0.0-beta.1",
+      "hashPath": "asmresolver.pe.file.6.0.0-beta.1.nupkg.sha512"
     },
-    "AssetRipper.CIL/1.0.0": {
+    "AssetRipper.CIL/1.1.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-l639dKLllpJ5TcX+Z1OVYz+hsKVZyMpEm59Dl4Qd6YrCHPVj9yPtF/UNjn9nFxoDm7suEFP/0vlZD/bSeXjz6Q==",
-      "path": "assetripper.cil/1.0.0",
-      "hashPath": "assetripper.cil.1.0.0.nupkg.sha512"
+      "sha512": "sha512-nSz1cBjgVeKv+esfDtyQGC1mY9b4C4NFStytdoa9DMozDC8uth6930kAsuWZEivj9GqWSqENnaQUGnl23WpmnQ==",
+      "path": "assetripper.cil/1.1.0",
+      "hashPath": "assetripper.cil.1.1.0.nupkg.sha512"
     },
-    "AssetRipper.Gee.External.Capstone/2.3.1": {
+    "AssetRipper.Gee.External.Capstone/2.3.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-WVujToXc2sB5nVEY4iMpjhsQaqGw5RjG3c0Hl1qT/pZMbfwtafpaOwAa0G/GS5gd2jcuJwrsG880Pkyjkhi3vQ==",
-      "path": "assetripper.gee.external.capstone/2.3.1",
-      "hashPath": "assetripper.gee.external.capstone.2.3.1.nupkg.sha512"
+      "sha512": "sha512-wOr5PQPL/2ZfD7+ebt6cpRbUhSzSY5nlHGHjjzuQRiU5zkQlqQNwWDLX0M3smrm5IkaDvONkmDjFMKTlZJmyuQ==",
+      "path": "assetripper.gee.external.capstone/2.3.2",
+      "hashPath": "assetripper.gee.external.capstone.2.3.2.nupkg.sha512"
     },
-    "AssetRipper.Primitives/3.1.1": {
+    "AssetRipper.Primitives/3.1.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-GhFAVMWpG8MyZscQxwYCd1HSS36UhIQeW0Gn9iPYiininZWlo8RTV9tGYv0CNNXw5bODYJtXf4qiqo6sQOVAEg==",
-      "path": "assetripper.primitives/3.1.1",
-      "hashPath": "assetripper.primitives.3.1.1.nupkg.sha512"
+      "sha512": "sha512-djZbN/+EXmI+Oia9Pm0LyjZVCPLf60TPSL5rGb7mBEYM5F4CN3nPFXvl2yA5LanPZoHS1Yq7PghGUmkP7Pv9RQ==",
+      "path": "assetripper.primitives/3.1.3",
+      "hashPath": "assetripper.primitives.3.1.3.nupkg.sha512"
     },
-    "BepInEx.Core/6.0.0-be.691": {
+    "BepInEx.Core/6.0.0-be.733": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-kM0vDdOpVwuJoqkE6igA1/h3tz+TwmE1TFRs+JM6jZEYejAWWRUY92jIjg11JfMi6McbjMCofTMTR/pcT39jdg==",
-      "path": "bepinex.core/6.0.0-be.691",
-      "hashPath": "bepinex.core.6.0.0-be.691.nupkg.sha512"
+      "sha512": "sha512-uRzpyUdU3L8Y4ZW+ZnF73orq0E40MjGK6XcPzm24CrrWB5bUshwdrtFQfrwZB6jcZVNVV6PXE92hScEI+Jaoqw==",
+      "path": "bepinex.core/6.0.0-be.733",
+      "hashPath": "bepinex.core.6.0.0-be.733.nupkg.sha512"
     },
     "BepInEx.PluginInfoProps/2.1.0": {
       "type": "package",
@@ -1445,47 +1360,40 @@
       "path": "bepinex.plugininfoprops/2.1.0",
       "hashPath": "bepinex.plugininfoprops.2.1.0.nupkg.sha512"
     },
-    "BepInEx.Unity.Common/6.0.0-be.691": {
+    "BepInEx.Unity.Common/6.0.0-be.733": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-7YP0JAWo3ozSOz8u4TBmGuasKRG5/iIIQEveCR0Z5Xiuaun1a8F4c6Wz3oY0//p9A2NFZvXXMIzj2/1YHF8auA==",
-      "path": "bepinex.unity.common/6.0.0-be.691",
-      "hashPath": "bepinex.unity.common.6.0.0-be.691.nupkg.sha512"
+      "sha512": "sha512-KfdiHVSOPnIbDEF7zLPTSXDjKqIEq7SgffqFFKIxOBkCws7LdtSRQsamUcxdD0H8yopcgdlqobIp6t8e4M/k9Q==",
+      "path": "bepinex.unity.common/6.0.0-be.733",
+      "hashPath": "bepinex.unity.common.6.0.0-be.733.nupkg.sha512"
     },
-    "BepInEx.Unity.IL2CPP/6.0.0-be.691": {
+    "BepInEx.Unity.IL2CPP/6.0.0-be.733": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-kWI1vb7vyfpvTwerVJZ8U25sPPQnI0PzFVfL4pOfWQZ9A4yRQTwKaWV2vGr5I5o84dI4w9yHptyYHT2fDPInVA==",
-      "path": "bepinex.unity.il2cpp/6.0.0-be.691",
-      "hashPath": "bepinex.unity.il2cpp.6.0.0-be.691.nupkg.sha512"
+      "sha512": "sha512-lnoGaPHjIdGfEiKtf89knaTdLXe4IUqVLdoYqW8NYhhNqgxa3oNwScjTmuYQpa4Leew3937+slq2WIjvX/DUwQ==",
+      "path": "bepinex.unity.il2cpp/6.0.0-be.733",
+      "hashPath": "bepinex.unity.il2cpp.6.0.0-be.733.nupkg.sha512"
     },
-    "Disarm/2022.1.0-master.26": {
+    "Disarm/2022.1.0-master.34": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-YnZEbRGr0nG+N3G8WbRQ4Lkg8dTD3oso9iJlCVBmyhEyhLyqs+drBs1kWQbQqFPnb9mi/RJ++R9bPb+L3HF03Q==",
-      "path": "disarm/2022.1.0-master.26",
-      "hashPath": "disarm.2022.1.0-master.26.nupkg.sha512"
+      "sha512": "sha512-sxzTci5eSdl+sFoaGsMZIp7X/eB5ZzplM3CppvD1CWoiZ8rSa43XGLC19G5e8n6mjutNBfN9yL+RER5PCspHFg==",
+      "path": "disarm/2022.1.0-master.34",
+      "hashPath": "disarm.2022.1.0-master.34.nupkg.sha512"
     },
-    "Fody/6.6.2": {
+    "HarmonyX/2.10.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-/PISk/t+lnNm0tiAc3xer3wp7HVnDCkX7gyTzljbC9kygUBJpYU2V1P/MjJeu/C6JhR40QXr9XdoxvqRmaHlhg==",
-      "path": "fody/6.6.2",
-      "hashPath": "fody.6.6.2.nupkg.sha512"
+      "sha512": "sha512-/5WwkxXX8mPsRuigQt957rJGx1f0dDQxk+bvk4yYITKFjXas9Em+O71zEP8X0ym8OFQQ2XH/2SxS4NC7vEC+Xg==",
+      "path": "harmonyx/2.10.2",
+      "hashPath": "harmonyx.2.10.2.nupkg.sha512"
     },
-    "HarmonyX/2.10.1": {
+    "Iced/1.21.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-9LodMC9Y0u1TW96eKJoWrFJFpmzbgojEO38/Q+e7c1mFPhmHt8xcR8qhI06iF1rf0Dnsk+hqENFVSgbtwl/bEw==",
-      "path": "harmonyx/2.10.1",
-      "hashPath": "harmonyx.2.10.1.nupkg.sha512"
-    },
-    "Iced/1.20.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-cjk+vNDIatLI5vQ22tOCAzsgowZ32Ob1Fy4ljQSfqfzMe5ATKXU+dMPRE6+cIUUFetoyyWkUJArJoxe3QwDXAA==",
-      "path": "iced/1.20.0",
-      "hashPath": "iced.1.20.0.nupkg.sha512"
+      "sha512": "sha512-dv5+81Q1TBQvVMSOOOmRcjJmvWcX3BZPZsIq31+RLc5cNft0IHAyNlkdb7ZarOWG913PyBoFDsDXoCIlKmLclg==",
+      "path": "iced/1.21.0",
+      "hashPath": "iced.1.21.0.nupkg.sha512"
     },
     "Il2CppInterop.Common/1.4.6-ci.426": {
       "type": "package",
@@ -1543,19 +1451,19 @@
       "path": "mono.cecil/0.11.4",
       "hashPath": "mono.cecil.0.11.4.nupkg.sha512"
     },
-    "MonoMod.RuntimeDetour/22.5.1.1": {
+    "MonoMod.RuntimeDetour/22.7.31.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-WG5zLRuAr8KJEnIkKTuIG1OJCrGIT3pjvnAD43E0FDchHf3Dp985MF/8tmIQvAzCZV87JNs6QKeGGqmwDmpXpw==",
-      "path": "monomod.runtimedetour/22.5.1.1",
-      "hashPath": "monomod.runtimedetour.22.5.1.1.nupkg.sha512"
+      "sha512": "sha512-nxVJTvQbWAujaogt5XX3eAy7d22t66Z88aWg9sirPLO9rR/6yNCHAyZpgxXrOsIobZVW0IEZPqNMOBhgke25/w==",
+      "path": "monomod.runtimedetour/22.7.31.1",
+      "hashPath": "monomod.runtimedetour.22.7.31.1.nupkg.sha512"
     },
-    "MonoMod.Utils/22.5.1.1": {
+    "MonoMod.Utils/22.7.31.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-vBObO1atXxhi2C4AuC53y87Bqeogi9xIrD1Ym3YWr5uxc8Nrm8SrsFeD1i3x04R999+XQ3FdeHrbXScyWYEHqQ==",
-      "path": "monomod.utils/22.5.1.1",
-      "hashPath": "monomod.utils.22.5.1.1.nupkg.sha512"
+      "sha512": "sha512-nI0E1oadXS1iMbfwfCzYF08C1jRQR9cnnHv66a4BSPd4sGu2p6g4BmctCWsdAB6oGKkSJUhcfHfxcfTsDyB94Q==",
+      "path": "monomod.utils/22.7.31.1",
+      "hashPath": "monomod.utils.22.7.31.1.nupkg.sha512"
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {
       "type": "package",
@@ -1662,26 +1570,26 @@
       "path": "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl/4.3.2",
       "hashPath": "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512"
     },
-    "Samboy063.Cpp2IL.Core/2022.1.0-development.972": {
+    "Samboy063.Cpp2IL.Core/2022.1.0-pre-release.18": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-nCO5VGiZzMqdtf1yZZQwhJ+DHklSBqDxF25mTsfw8mP56wt4TBYiQyXnj2EASqbz2VN0+NqUB3jlcuOgD0gNHg==",
-      "path": "samboy063.cpp2il.core/2022.1.0-development.972",
-      "hashPath": "samboy063.cpp2il.core.2022.1.0-development.972.nupkg.sha512"
+      "sha512": "sha512-eX9d1IK05jWaEaeuMAE0L5WYHT7thtxz+aWLL/CAaCzZ0TzRPD+WFTjJ0KQO0YWBVO300CX3GwmPmf7TNO+wUg==",
+      "path": "samboy063.cpp2il.core/2022.1.0-pre-release.18",
+      "hashPath": "samboy063.cpp2il.core.2022.1.0-pre-release.18.nupkg.sha512"
     },
-    "Samboy063.LibCpp2IL/2022.1.0-development.972": {
+    "Samboy063.LibCpp2IL/2022.1.0-pre-release.18": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-8GtNi2i4CVXlunDyNhV1cZrxWNxlPejD5VPHgQ14bYrTjG8Rn7nGDt64B5cklGUT/FMADA9t/ZAALTMJ6UXpTA==",
-      "path": "samboy063.libcpp2il/2022.1.0-development.972",
-      "hashPath": "samboy063.libcpp2il.2022.1.0-development.972.nupkg.sha512"
+      "sha512": "sha512-9zJdTAeErpwJpYDHYwwI0MAC1OyBEfC1ce7dpAOYRUUYCfeaKVWxnSCcyaoY6HDzIoxPkhbfllbwOe49ZmUYuQ==",
+      "path": "samboy063.libcpp2il/2022.1.0-pre-release.18",
+      "hashPath": "samboy063.libcpp2il.2022.1.0-pre-release.18.nupkg.sha512"
     },
-    "Samboy063.WasmDisassembler/2022.1.0-development.972": {
+    "Samboy063.WasmDisassembler/2022.1.0-pre-release.15": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-lfbUsyjArvISK9oJBx+QmDwtjXg425K66BmLUoeqzJ11kt0EAUMM34qGEMDceNyNYfl5Op5RpS+krkq/sudM4g==",
-      "path": "samboy063.wasmdisassembler/2022.1.0-development.972",
-      "hashPath": "samboy063.wasmdisassembler.2022.1.0-development.972.nupkg.sha512"
+      "sha512": "sha512-e6qw81SHS+fS7iZ3qfqZBavVarYbkPElNgDCANF6dNFTYq5+hc80am+4FqQDl+ZVNS47bZDZobxIzHhmriCXGg==",
+      "path": "samboy063.wasmdisassembler/2022.1.0-pre-release.15",
+      "hashPath": "samboy063.wasmdisassembler.2022.1.0-pre-release.15.nupkg.sha512"
     },
     "SemanticVersioning/2.0.2": {
       "type": "package",
@@ -1690,12 +1598,12 @@
       "path": "semanticversioning/2.0.2",
       "hashPath": "semanticversioning.2.0.2.nupkg.sha512"
     },
-    "StableNameDotNet/0.1.0-development.972": {
+    "StableNameDotNet/0.1.0-pre-release.15": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-1G965uhTTEI5sKU/CFMGuhzuxDophrYS2otI3Ej+BAhbEOq//LFWpoEwhaWW5moKW0K56ZCqvB8YqnEKyk9kbA==",
-      "path": "stablenamedotnet/0.1.0-development.972",
-      "hashPath": "stablenamedotnet.0.1.0-development.972.nupkg.sha512"
+      "sha512": "sha512-aIkEOo8V76vE+9CppHpTFLGXalBw6TAl4/tb6vadmS+gHJMshTVehzQv9cJXy4xZDdANV1uGMRaUFZERcDA2xQ==",
+      "path": "stablenamedotnet/0.1.0-pre-release.15",
+      "hashPath": "stablenamedotnet.0.1.0-pre-release.15.nupkg.sha512"
     },
     "System.Collections/4.3.0": {
       "type": "package",
@@ -1893,13 +1801,6 @@
       "path": "system.runtime/4.3.0",
       "hashPath": "system.runtime.4.3.0.nupkg.sha512"
     },
-    "System.Runtime.CompilerServices.Unsafe/6.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
-      "path": "system.runtime.compilerservices.unsafe/6.0.0",
-      "hashPath": "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
-    },
     "System.Runtime.Extensions/4.3.0": {
       "type": "package",
       "serviceable": true,
@@ -1984,20 +1885,6 @@
       "path": "system.text.encoding/4.3.0",
       "hashPath": "system.text.encoding.4.3.0.nupkg.sha512"
     },
-    "System.Text.Encodings.Web/6.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-Vg8eB5Tawm1IFqj4TVK1czJX89rhFxJo9ELqc/Eiq0eXy13RK00eubyU6TJE6y+GQXjyV5gSfiewDUZjQgSE0w==",
-      "path": "system.text.encodings.web/6.0.0",
-      "hashPath": "system.text.encodings.web.6.0.0.nupkg.sha512"
-    },
-    "System.Text.Json/6.0.8": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-WhW6zPEgRZoo+c1NEvSSmrME4+LqXmW6tcsRFsEiSMeco+qZ9rpLs7tT53EIkE/s9GNTYS4/STQoaGiKDSWifQ==",
-      "path": "system.text.json/6.0.8",
-      "hashPath": "system.text.json.6.0.8.nupkg.sha512"
-    },
     "System.Threading/4.3.0": {
       "type": "package",
       "serviceable": true,
@@ -2012,19 +1899,12 @@
       "path": "system.threading.tasks/4.3.0",
       "hashPath": "system.threading.tasks.4.3.0.nupkg.sha512"
     },
-    "VRising.Bloodstone/0.2.2": {
+    "VRising.Unhollowed.Client/1.1.10": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-UklJiBHMHNEU3NqHpr/AyypF65QOM1f8DttJ01fOex4aPpJ2M0vlZFbQDCouauSBFYgdqs+T9xnl3Zr3Jhd9VA==",
-      "path": "vrising.bloodstone/0.2.2",
-      "hashPath": "vrising.bloodstone.0.2.2.nupkg.sha512"
-    },
-    "VRising.Unhollowed.Client/1.0.5.802790001": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-MiBrpcn/CKe7+zaH3XDjLBgTp0XfBFlD+1+VHtWJ9RKDlsyf74kUT5G3xDuA4rfgCBG67pQvoedQWkMCCGc94g==",
-      "path": "vrising.unhollowed.client/1.0.5.802790001",
-      "hashPath": "vrising.unhollowed.client.1.0.5.802790001.nupkg.sha512"
+      "sha512": "sha512-T7MAtqs7ep06UQbduBy8mKzsyK9vDBxdkNeHlNJJxoBQpCvH/TUn37mHCfPwE08CKf37sFO1cZrH9ZXrrOXm1g==",
+      "path": "vrising.unhollowed.client/1.1.10",
+      "hashPath": "vrising.unhollowed.client.1.1.10.nupkg.sha512"
     },
     "VRising.VampireCommandFramework/0.9.0": {
       "type": "package",
@@ -2032,21 +1912,6 @@
       "sha512": "sha512-2O4nKLVuqn3huIKY7kNjnJTxBjjAMNPtQj+duikS/j5LoXUkjFWimXJ0JXOv2p+ZkTapxPMAdKLT6KkWA+MaVA==",
       "path": "vrising.vampirecommandframework/0.9.0",
       "hashPath": "vrising.vampirecommandframework.0.9.0.nupkg.sha512"
-    },
-    "Bloody.Core/1.2.5.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "BloodyShop/1.0.2.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "UniverseLib.IL2CPP.Interop/1.5.1.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
     }
   }
 }

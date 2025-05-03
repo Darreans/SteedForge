@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Darrean\\source\\repos\\SteedForge\\SteedForge.csproj": {}
+    "C:\\Users\\Darrean\\Documents\\SteedForge-main\\SteedForge-main\\SteedForge\\SteedForge.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Darrean\\source\\repos\\SteedForge\\SteedForge.csproj": {
+    "C:\\Users\\Darrean\\Documents\\SteedForge-main\\SteedForge-main\\SteedForge\\SteedForge.csproj": {
       "version": "0.1.10",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Darrean\\source\\repos\\SteedForge\\SteedForge.csproj",
+        "projectUniqueName": "C:\\Users\\Darrean\\Documents\\SteedForge-main\\SteedForge-main\\SteedForge\\SteedForge.csproj",
         "projectName": "SteedForge",
-        "projectPath": "C:\\Users\\Darrean\\source\\repos\\SteedForge\\SteedForge.csproj",
+        "projectPath": "C:\\Users\\Darrean\\Documents\\SteedForge-main\\SteedForge-main\\SteedForge\\SteedForge.csproj",
         "packagesPath": "C:\\Users\\Darrean\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Darrean\\source\\repos\\SteedForge\\obj\\",
+        "outputPath": "C:\\Users\\Darrean\\Documents\\SteedForge-main\\SteedForge-main\\SteedForge\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Darrean\\source\\repos\\SteedForge\\NuGet.Config",
+          "C:\\Users\\Darrean\\Documents\\SteedForge-main\\SteedForge-main\\SteedForge\\NuGet.Config",
           "C:\\Users\\Darrean\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -27,8 +27,9 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {},
+          "C:\\Users\\Darrean\\.nuget\\packages\\vrising.unhollowed.client\\": {},
+          "C:\\Users\\Darrean\\.nuget\\packages\\vrising.unhollowed.client\\1.0.5.802790001": {},
+          "F:\\MyNugetFeed": {},
           "https://nuget.bepinex.dev/v3/index.json": {},
           "https://nuget.samboy.dev/v3/index.json": {}
         },
@@ -47,37 +48,29 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "BepInEx.Core": {
-              "include": "Compile",
-              "target": "Package",
-              "version": "[6.0.0-be.691, )"
-            },
             "BepInEx.PluginInfoProps": {
               "target": "Package",
-              "version": "[2.*, )"
+              "version": "[2.1.0, )"
             },
             "BepInEx.Unity.IL2CPP": {
               "include": "Compile",
               "target": "Package",
-              "version": "[6.0.0-be.691, )"
-            },
-            "VRising.Bloodstone": {
-              "target": "Package",
-              "version": "[0.2.*, )"
-            },
-            "VRising.Unhollowed.Client": {
-              "target": "Package",
-              "version": "[1.0.*, )"
+              "version": "[6.0.0-be.733, )"
             },
             "VRising.VampireCommandFramework": {
               "target": "Package",
-              "version": "[0.9.*, )"
+              "version": "[0.9.0, )"
+            },
+            "vrising.unhollowed.client": {
+              "target": "Package",
+              "version": "[1.1.10, )"
             }
           },
           "imports": [
@@ -96,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
